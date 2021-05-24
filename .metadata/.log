@@ -1430,3 +1430,81 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-24 18:54:39.400
 !MESSAGE executing callback sts4.classpath.TABihtTV SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-24 19:20:52.143
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.TABihtTV
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-24 19:20:52.143
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.TABihtTV
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-24 19:20:52.143
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-24 19:20:52.144
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.TABihtTV => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-24 19:22:31.755
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-24 19:22:31.756
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@253fa5f3[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=1103)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-24 19:22:31.756
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-24 19:22:32.983
+!MESSAGE Boot LS startup time from start to initialized: 1226ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-24 19:22:33.042
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.TVAlWWrgisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-24 19:22:33.043
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-24 19:22:33.043
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-24 19:22:33.043
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-24 19:22:33.043
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-24 19:22:33.044
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.TVAlWWrg => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-24 19:22:33.044
+!MESSAGE classpath=65 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-24 19:22:33.045
+!MESSAGE buffering callback sts4.classpath.TVAlWWrg spring-demo-annotations false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-24 19:22:33.046
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-24 19:22:33.046
+!MESSAGE classpath=65 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-24 19:22:33.048
+!MESSAGE buffering callback sts4.classpath.TVAlWWrg spring-demo-xml-configurations false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-24 19:22:33.048
+!MESSAGE executing callback sts4.classpath.TVAlWWrg 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-24 19:22:33.068
+!MESSAGE executing callback sts4.classpath.TVAlWWrg SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-24 19:24:53.589
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-24 19:24:53.589
+!MESSAGE classpath=66 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-24 19:24:53.591
+!MESSAGE buffering callback sts4.classpath.TVAlWWrg spring-demo-annotations false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-24 19:24:53.591
+!MESSAGE executing callback sts4.classpath.TVAlWWrg 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-24 19:24:53.593
+!MESSAGE executing callback sts4.classpath.TVAlWWrg SUCCESS [done]
