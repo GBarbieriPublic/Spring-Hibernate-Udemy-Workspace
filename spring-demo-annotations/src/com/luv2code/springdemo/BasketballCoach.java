@@ -10,4 +10,10 @@ public class BasketballCoach implements Coach {
 		return "Shoot 10 hoops!";
 	}
 
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
