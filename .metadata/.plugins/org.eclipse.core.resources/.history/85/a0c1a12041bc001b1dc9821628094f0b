@@ -1,0 +1,28 @@
+package com.luv2code.springdemo;
+
+public class HappyFortuneService implements FortuneService {
+
+	private String[] fortunes;
+	
+	public HappyFortuneService() {
+		
+	}
+	
+	public String[] getFortunes() {
+		return fortunes;
+	}
+
+	public void setFortunes(String[] fortunes) {
+		this.fortunes = fortunes;
+	}
+
+	@Override
+	public String getFortune() {
+		int max = 3;
+		int min = 1;
+		int rand = random.nextInt(max - min + 1) + min;
+		
+		return "Today is your lucky day!";
+	}
+
+}
