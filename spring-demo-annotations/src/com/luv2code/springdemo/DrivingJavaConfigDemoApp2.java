@@ -2,15 +2,15 @@ package com.luv2code.springdemo;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-public class SwimJavaConfigDemoApp {
+public class DrivingJavaConfigDemoApp2 {
 
 	public static void main(String[] args) {
 		
 		// read spring java configuration class
-		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext (SportConfig.class); 
+		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext (DrivingConfig.class); 
 		
 		// get the bean from spring container
-		SwimCoach theCoach = context.getBean("swimCoach", SwimCoach.class);
+		DrivingCoach theCoach = context.getBean("drivingCoach", DrivingCoach.class);
 		
 		// call a method on the bean
 		System.out.println(theCoach.getDailyWorkout());
@@ -18,9 +18,6 @@ public class SwimJavaConfigDemoApp {
 		// call method to get the daily fortune
 		System.out.println(theCoach.getDailyFortune());
 		
-		// call our new swim coach methods
-		System.out.println(theCoach.getEmail());
-		System.out.println(theCoach.getTeam());
 		
 		// close the context
 		context.close();
